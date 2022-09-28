@@ -11,7 +11,7 @@ import dash_core_components as dcc
 from dash.dependencies import Input, Output
 import twit_data_analysis as tda
 
-twitter_data_file = '/home/nuclear/Stuff/PythonPrograms/Twitter-Portfolio-Project/data/roe-wade-10000-original-sentiment-added.json'
+twitter_data_file = '~/Github/PythonPrograms/twitter-portfolio-project/data/roe-wade-10000-original-sentiment-added.json'
 twitter_data = pd.read_json(twitter_data_file)
 twit_data_obj = tda.tweet_analysis(twitter_data)
 
